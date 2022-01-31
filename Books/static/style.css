@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#330033;
+}
+h1{
+    margin:0;
+}
+header h1{
+    text-align:center;
+    color:#F5F5DC;
+    padding-top:30px
+}
+header{
+    margin:0;
+    padding:0;
+    height:100px;
+    background-color:#252F03;
+}
+nav{
+    background-color:#000033;
+    height:50px;
+    margin:0;
+    padding:0;
+}
+main{
+     margin:0;
+     padding:20px;
+     color:#FCE4EC
+}
+
+ul{
+    margin:0;
+    text-align:center
+}
+li{
+  font-size:24px;
+}
+
+nav li {
+  display:inline-block;
+  padding:10px;
+ }
+li a{
+    color:#CCFFFF;
+    text-decoration:none;
+}
+p{
+    font-size:22px;
+}

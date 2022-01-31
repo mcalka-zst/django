@@ -1,0 +1,14 @@
+{% extends 'template.html' %}
+{% block book %}
+{% if book_category %}
+<ol>
+    {% for book in book_category %}
+    <li>
+        <a href="/book/{{book.id}}">{{book.title}}</a>
+    </li>
+    {% endfor%}
+</ol>
+{% else %}
+<p>Nie ma tu książek</p>
+{% endif %}
+{% endblock book %}

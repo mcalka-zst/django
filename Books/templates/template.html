@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Księgarnia</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/style.css' %}">
+</head>
+<body>
+<nav>
+    <ul>
+        {% for category in categories %}
+        <li><a href="/category/{{category.id}}"> {{category.name}} </a></li>
+        {% endfor %}
+    </ul>
+</nav>
+<header><h1>Witamy w księgarni KSIĘGARNIA </h1></header>
+
+<main>
+    {% block  book %} {% endblock book %}
+</main>
+</body>
+</html>
